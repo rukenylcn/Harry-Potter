@@ -51,7 +51,7 @@ class MainActivity : AppCompatActivity() {
                 Toast.makeText(baseContext ,  "hata var",Toast.LENGTH_SHORT).show()
 
             }
-S
+
         })
         ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main)) { v, insets ->
             val systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars())
